@@ -10,13 +10,6 @@ Copy the YoPhoneValidator.php file into one of the ```include_path``` directorie
 
 If you don't use git, click the 'zip' button at the top of the page in GitHub.
 
-### Minimal Installation
-
-While installing the entire package manually or with composer is simple, convenient and reliable, you may want to include only vital files in your project. At the very least you'll need [YoAPI.php](YoAPI.php). If you are doing Instant Payment Notifications, then you'll also require [Yo_Uganda_Public_Certificate.crt](Yo_Uganda_Public_Certificate.crt).
-
-You can then load the library by just ```require '/path/to/YoAPI.php';``` and everything should work.
-
-
 ## A Simple Example
 
 Validate a phone number
